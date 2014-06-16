@@ -9,6 +9,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import ivorius.invinciblehamster.entities.EntityInvincibleHamster;
+import ivorius.invinciblehamster.entities.IHEntityList;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.config.Configuration;
@@ -38,7 +39,7 @@ public class InvincibleHamster
 //        config.save();
 
         int invincibleHamsterID = EntityRegistry.findGlobalUniqueEntityId();
-        EntityRegistry.registerModEntity(EntityInvincibleHamster.class, "invincibleHamster", 0, this, 80, 3, false);
+        EntityRegistry.registerModEntity(EntityInvincibleHamster.class, "invincibleHamster", IHEntityList.invincibleHamsterID, this, 80, 3, false);
         EntityRegistry.registerGlobalEntityID(EntityInvincibleHamster.class, "invincibleHamster", invincibleHamsterID, 0xfefdfc, 0xff6811);
         EntityRegistry.addSpawn("invincibleHamster", 8, 4, 4, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.plains);
     }
