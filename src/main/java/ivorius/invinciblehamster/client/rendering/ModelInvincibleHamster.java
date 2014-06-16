@@ -1,5 +1,6 @@
-package ivorius.invinciblehamster;
+package ivorius.invinciblehamster.client.rendering;
 
+import ivorius.invinciblehamster.entities.EntityInvincibleHamster;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;

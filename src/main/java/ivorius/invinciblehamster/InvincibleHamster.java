@@ -8,6 +8,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.EntityRegistry;
+import ivorius.invinciblehamster.entities.EntityInvincibleHamster;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.config.Configuration;
@@ -21,7 +22,7 @@ public class InvincibleHamster
     @Instance(value = MODID)
     public static InvincibleHamster instance;
 
-    @SidedProxy(clientSide = "ivorius.invinciblehamster.client.ClientProxy", serverSide = "ivorius.invinciblehamster.ServerProxy")
+    @SidedProxy(clientSide = "ivorius.invinciblehamster.client.ClientProxy", serverSide = "ivorius.invinciblehamster.server.ServerProxy")
     public static IHProxy proxy;
 
     public static String filePathTextures = "textures/mod/";

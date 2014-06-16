@@ -1,5 +1,7 @@
-package ivorius.invinciblehamster;
+package ivorius.invinciblehamster.client.rendering;
 
+import ivorius.invinciblehamster.InvincibleHamster;
+import ivorius.invinciblehamster.entities.EntityInvincibleHamster;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;

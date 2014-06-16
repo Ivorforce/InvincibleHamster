@@ -1,4 +1,4 @@
-package ivorius.invinciblehamster;
+package ivorius.invinciblehamster.entities;
 
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.entity.ai.RandomPositionGenerator;

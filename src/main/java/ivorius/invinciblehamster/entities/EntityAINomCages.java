@@ -1,4 +1,4 @@
-package ivorius.invinciblehamster;
+package ivorius.invinciblehamster.entities;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLiving;
