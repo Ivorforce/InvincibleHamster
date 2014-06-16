@@ -1,0 +1,16 @@
+[
+{
+  "modid": "invinciblehamster",
+  "name": "Invincible Hamster",
+  "description": "Adds Hamsters to the game. Once tamed, they become invincible, and live out their infinite wrath against iron bars.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.minecraftforum.net/topic/563257-152",
+  "updateUrl": "",
+  "authors": ["Ivorius"],
+  "credits": "Ivorius: Development, Visuals",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
