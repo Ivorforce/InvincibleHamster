@@ -31,11 +31,11 @@ public class InvincibleHamster
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        Configuration config = new Configuration(event.getSuggestedConfigurationFile());
-
-        config.load();
-
-        config.save();
+//        Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+//
+//        config.load();
+//
+//        config.save();
 
         int invincibleHamsterID = EntityRegistry.findGlobalUniqueEntityId();
         EntityRegistry.registerGlobalEntityID(EntityInvincibleHamster.class, "invincibleHamster", invincibleHamsterID, 0xfefdfc, 0xff6811);
