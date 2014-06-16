@@ -5,7 +5,7 @@
 
 package ivorius.invinciblehamster;
 
-public class CommonProxy
+public class ServerProxy implements IHProxy
 {
     public void registerRenderers()
     {

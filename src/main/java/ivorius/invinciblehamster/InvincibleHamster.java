@@ -21,13 +21,9 @@ public class InvincibleHamster
     @Instance(value = MODID)
     public static InvincibleHamster instance;
 
-    @SidedProxy(clientSide = "ivorius.invinciblehamster.client.ClientProxy", serverSide = "ivorius.invinciblehamster.CommonProxy")
-    public static CommonProxy proxy;
+    @SidedProxy(clientSide = "ivorius.invinciblehamster.client.ClientProxy", serverSide = "ivorius.invinciblehamster.ServerProxy")
+    public static IHProxy proxy;
 
-    public static final byte tagCompoundID = 10;
-    public static final byte tagStringID = 8;
-
-    public static String filePathTexturesFull = "invinciblehamster:textures/mod/";
     public static String filePathTextures = "textures/mod/";
     public static String textureBase = "invinciblehamster:";
 
