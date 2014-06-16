@@ -1,9 +1,9 @@
-package net.ivorius.invinciblehamster.client;
+package ivorius.invinciblehamster.client;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
-import net.ivorius.invinciblehamster.CommonProxy;
-import net.ivorius.invinciblehamster.EntityInvincibleHamster;
-import net.ivorius.invinciblehamster.RenderInvincibleHamster;
+import ivorius.invinciblehamster.CommonProxy;
+import ivorius.invinciblehamster.EntityInvincibleHamster;
+import ivorius.invinciblehamster.RenderInvincibleHamster;
 
 public class ClientProxy extends CommonProxy
 {

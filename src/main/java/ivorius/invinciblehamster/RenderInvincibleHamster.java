@@ -1,4 +1,4 @@
-package net.ivorius.invinciblehamster;
+package ivorius.invinciblehamster;
 
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;

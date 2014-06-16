@@ -1,4 +1,4 @@
-package net.ivorius.invinciblehamster;
+package ivorius.invinciblehamster;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -21,7 +21,7 @@ public class InvincibleHamster
     @Instance(value = MODID)
     public static InvincibleHamster instance;
 
-    @SidedProxy(clientSide = "net.ivorius.invinciblehamster.client.ClientProxy", serverSide = "net.ivorius.invinciblehamster.CommonProxy")
+    @SidedProxy(clientSide = "ivorius.invinciblehamster.client.ClientProxy", serverSide = "ivorius.invinciblehamster.CommonProxy")
     public static CommonProxy proxy;
 
     public static final byte tagCompoundID = 10;

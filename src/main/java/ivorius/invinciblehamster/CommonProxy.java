@@ -3,7 +3,7 @@
  * http://lukas.axxim.net
  **************************************************************************************************/
 
-package net.ivorius.invinciblehamster;
+package ivorius.invinciblehamster;
 
 public class CommonProxy
 {

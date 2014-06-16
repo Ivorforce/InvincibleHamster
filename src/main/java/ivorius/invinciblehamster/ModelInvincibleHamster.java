@@ -1,4 +1,4 @@
-package net.ivorius.invinciblehamster;
+package ivorius.invinciblehamster;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
