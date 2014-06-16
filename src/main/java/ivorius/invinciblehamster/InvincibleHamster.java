@@ -38,6 +38,7 @@ public class InvincibleHamster
 //        config.save();
 
         int invincibleHamsterID = EntityRegistry.findGlobalUniqueEntityId();
+        EntityRegistry.registerModEntity(EntityInvincibleHamster.class, "invincibleHamster", 0, this, 80, 3, false);
         EntityRegistry.registerGlobalEntityID(EntityInvincibleHamster.class, "invincibleHamster", invincibleHamsterID, 0xfefdfc, 0xff6811);
         EntityRegistry.addSpawn("invincibleHamster", 8, 4, 4, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.plains);
     }
